@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffffff;
+   
+
+  }
+  
+  .age-calculator-container {
+    text-align: center;
+    background: linear-gradient(135deg, #34d9c2, #86a8e7, #c475e1, #ef67a3);
+    width: 500px;
+  }
+  
+  .calculator-card {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    min-width: 400px;
+    margin: auto;
+    position: relative;
+
+  }
+  
+  .title {
+    color: #132fd0;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-section {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  input[type="date"] {
+    padding: 8px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: 2px solid #202616;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background: lightgrey;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #e75594;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #019441;
+  }
+  
+  .result-section p {
+    font-size: 1.2rem;
+    color: #192938;
+    margin: 5px 0;
+  }
+  
+  .motivational-quote {
+    font-size: 1rem;
+    font-style: italic;
+    color: #000000;
+    margin-top: 20px;
+    border-top: 1px solid #101417;
+    padding-top: 10px;
+    font-family: "Playwrite GB S", cursive;
+  }
+  
+  .quote-section {
+    
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+    font-family: "Playwrite GB S", cursive;
+  }
+  .quote-section h2{
+    
+    flex-grow: 2;
+    text-align: center;
+  }
+  
+  .quote-section h2:before {
+    content: '💡';
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  .quote-section blockquote::before, .quote-section blockquote::after{
+    content:'"'
+  }
+  .quote-section span{
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+  }
+  .quote-section span::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(23,124,229) ;
+    position: absolute;
+    top: 50%;
+    left: -30px;
+  }
+  .quote-section div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .quote-section button{
+    background: rgb(23,124,229);
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(23,124,229);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  
+  .result-section {
+    margin-top: 20px;
+  }
+  
+  

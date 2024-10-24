@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beautiful Age Calculator</title>
+  <link rel="stylesheet" href="./agecal.css">
+</head>
+<body>
+  <div class="age-calculator-container">
+    <h1 class="title">🎂 Age Calculator 🎂</h1>
+    
+    <div class="calculator-card">
+      <div class="input-section">
+        <label for="dob">Enter your Date of Birth:</label><br>
+        <input type="date" id="dob" />
+        <button onclick="calculateAge()">Calculate Age</button>
+      </div>
+
+      <div id="age-result" class="result-section">
+        <p><strong>Age:</strong></p>
+        <p><span id="years">--</span> years</p>
+        <p><span id="months">--</span> months</p>
+        <p><span id="days">--</span> days</p>
+        <p><span id="hours">--</span> hours</p>
+        <p><span id="minutes">--</span> minutes</p>
+        <p><span id="seconds">--</span> seconds</p>
+      </div>
+
+      <div class="quote-section">
+        <h2 class="heading " style="text-align: center" > Quote of the Day</h2> 
+        <blockquote class="motivational-quote" id="quote">Loading...</blockquote>
+        <span id="author">Loading...</span>
+        <div>
+          <button id="new-quote-btn">New Quote</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./agecal.js"></script>
+</body>
+</html>
